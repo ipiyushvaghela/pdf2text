@@ -24,7 +24,7 @@ Download and install [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/py
    git clone https://github.com/ipiyushvaghela/pdf2text.git
    ```
    
-   Then download and setup Tesseract from [here](https://tesseract-ocr.github.io/tessdoc/Installation.html).
+   Then download and setup Tesseract from [here](https://tesseract-ocr.github.io/tessdoc/Installation.html). Tesseract complete setup for [windows](https://linuxhint.com/install-tesseract-windows/). Tesseract complete setup for [linux](https://linuxhint.com/install-tesseract-ocr-linux/)
    if you get any error or if it's not working then just check google or youtube for how to download and install Tesseract.
     
 3. Create virtual Environment 
@@ -50,7 +50,14 @@ Download and install [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/py
 ## Usage
 
 Now we are all set to go. 
-Open your current working directory in terminal and then just run below command with your inp_pdf_path, and language.
+Open your current working directory in terminal and then just run below command with your inp_pdf_path, and language. Available [languages](https://github.com/tesseract-ocr/tessdata).
+
+eng for english
+
+guj for gujarati 
+
+hin for hindi and so on...
+
 ```
 python script.py <inp_file_path> output.txt -l <language>
 ```
