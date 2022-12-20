@@ -46,8 +46,7 @@ Download and install [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/py
 ## Usage
 
 Now we are all set to go. 
-
-just run below command with your inp_pdf_path, and language.
+Open your current working directory in terminal and then just run below command with your inp_pdf_path, and language.
 ```
 python script.py <inp_file_path> output.txt -l <language>
 ```
